@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 100%;
+   height: 100vh;
+   background-color: #57097d;
+}
+.toDo-app{
+ text-align: center;
+  padding: 20px 40px;
+  width: 40%;
+  height: 50vh;
+  background-color: #fff;
+  
+  border-radius: 5px;
+}
+ul{
+ list-style: decimal;
+  padding: 0;
+  margin: 10px 0;
+}
+ul li{
+  text-align: left;
+  margin-top: 5px;
+}
+input{
+  padding: 8px 5px;
+  margin-bottom: 30px ;
+}
+.Add-todo{
+  margin: 0 10px;
+  background-color: #57097d;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+.Add-todo:hover{
+  opacity: .75;
+}
+.edit-button{
+  margin: 0 5px 0 10px;
+  background-color: #57097d;
+  border: none;
+  padding: 8px ;
+  color: white;
+  border-radius: 5px;
+}
+.edit-button:hover{
+  opacity: .75;
+}
+.delete-button{
+  margin: 0 5px 0 10px;
+  background-color: #f60101;
+  border: none;
+  padding: 8px ;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.delete-button:hover{
+  opacity: .75;
+}
